@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "75fcade49cdd6f6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "262a122a2503cea3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da0be9937435cbee",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "33d4a7f013557177",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/how-to-use-pouchdb-on-react-native->=-0.73.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "how-to-use-pouchdb-on-react-native->=-0.73"
+            }
+          },
+          {
+            "id": "849de946dc64c16b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/this-is-test-blog.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "this-is-test-blog"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d931e8fde40829f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b7c3b8453f790d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "077bc3cadafbbe88",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b87e551436d7406e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5a8180cdfb6fd04e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8fab720dd1469ae9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ad6fa41d843839c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3e4364a13d44c77",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/this-is-test-blog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for this-is-test-blog"
+            }
+          },
+          {
+            "id": "adbb4b7870778d53",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/this-is-test-blog.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from this-is-test-blog"
+            }
+          },
+          {
+            "id": "d4bb1abbdde88b99",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b585fc9cd2dddc22",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/this-is-test-blog.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of this-is-test-blog"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "849de946dc64c16b",
+  "lastOpenFiles": [
+    "posts/how-to-use-pouchdb-on-react-native->=-0.73.md",
+    "posts/this-is-test-blog.md",
+    "posts",
+    "Welcome.md"
+  ]
+}
