@@ -10,7 +10,7 @@ dotenv.config();
 const app: Express = express();
 const port = process.env.PORT || 3000;
 
-const postsDirectory: string = path.join(__dirname, "blog-obsidian/posts");
+const postsDirectory: string = path.join(process.cwd(), "blog-obsidian/posts");
 
 interface PostFrontMatter {
   title: string;
