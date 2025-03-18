@@ -17,9 +17,12 @@ interface PostFrontMatter {
   description: string;
   tags: string[];
   date: Date;
+  public: boolean;
 }
 
 app.use(cors());
+
+app.use("/images", express.static(process.cwd() + "/blog-obsidian/images"));
 
 app.get("/api/posts", (req: Request, res: Response) => {
   const files = fs.readdirSync(postsDirectory);
@@ -37,8 +40,10 @@ app.get("/api/posts", (req: Request, res: Response) => {
         tags: attributes.tags,
         date: attributes.date,
         slug: file.replace(".md", ""),
+        public: attributes.public,
       };
-    });
+    })
+    .filter((post) => post.public);
   res.send({ posts });
 });
 
@@ -48,8 +53,16 @@ app.get("/api/posts/:slug", (req: Request, res: Response) => {
   const content = fs.readFileSync(filePath, "utf-8");
   const { body } = fm(content);
 
+  // replace image with real url
+  const imageUrlRegex =
+    /!\[(?<alt>[^\]]*)\]\((?<filename>.*?)(?=\"|\))(?<optionalpart>\".*\")?\)/g;
+  const post = body.replaceAll(
+    imageUrlRegex,
+    `![$<alt>](https://whatwegonnadotoday-backend.vercel.app/images/$<filename>)`,
+  );
+
   res.send({
-    content: body,
+    content: post,
   });
 });
 

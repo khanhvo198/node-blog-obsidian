@@ -3,7 +3,7 @@ title: How to use PouchDB on React Native >= 0.73
 tags:
   - ReactNative
 description: How to use PouchDB on react native
-public: "0"
+public: true
 date: 2024-01-01
 ---
 

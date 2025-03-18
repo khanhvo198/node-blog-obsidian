@@ -8,31 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "da0be9937435cbee",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "33d4a7f013557177",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/how-to-use-pouchdb-on-react-native->=-0.73.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "how-to-use-pouchdb-on-react-native->=-0.73"
-            }
-          },
-          {
-            "id": "849de946dc64c16b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,8 +21,7 @@
               "title": "this-is-test-blog"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,11 +151,12 @@
               "title": "Outline of this-is-test-blog"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -193,11 +169,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "849de946dc64c16b",
+  "active": "33d4a7f013557177",
   "lastOpenFiles": [
-    "posts/how-to-use-pouchdb-on-react-native->=-0.73.md",
+    "Screenshot 2025-03-18 at 14.14.47.png",
     "posts/this-is-test-blog.md",
-    "posts",
-    "Welcome.md"
+    "Screenshot 2025-03-18 at 14.09.50.png",
+    "images.md",
+    "images/test1.png",
+    "posts/how-to-use-pouchdb-on-react-native->=-0.73.md",
+    "posts/every-day-with-leet-code-day-1.md",
+    "images/test.png",
+    "images/Screenshot.md",
+    "Welcome.md",
+    "images",
+    "posts"
   ]
 }
