@@ -22,8 +22,6 @@ interface PostFrontMatter {
 
 app.use(cors());
 
-app.use("/images", express.static(process.cwd() + "/blog-obsidian/images"));
-
 app.get("/api/posts", (req: Request, res: Response) => {
   const files = fs.readdirSync(postsDirectory);
 
