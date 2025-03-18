@@ -169,19 +169,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "33d4a7f013557177",
+  "active": "077bc3cadafbbe88",
   "lastOpenFiles": [
+    "public",
     "Screenshot 2025-03-18 at 14.14.47.png",
     "posts/this-is-test-blog.md",
     "Screenshot 2025-03-18 at 14.09.50.png",
     "images.md",
-    "images/test1.png",
+    "public/images/test1.png",
     "posts/how-to-use-pouchdb-on-react-native->=-0.73.md",
     "posts/every-day-with-leet-code-day-1.md",
-    "images/test.png",
+    "public/images/test.png",
     "images/Screenshot.md",
     "Welcome.md",
-    "images",
+    "public/images",
     "posts"
   ]
 }
