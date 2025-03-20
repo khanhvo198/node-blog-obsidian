@@ -1,7 +1,7 @@
 ---
 title: "Every day with leet code: Day 1"
 description: Through this series, I will solve any leetcode problem which have easy or medium level
-public: false
+public: true
 date: 2025-03-18
 tags:
   - Leetcode
