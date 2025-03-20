@@ -56,9 +56,8 @@ app.get("/api/posts/:slug", (req: Request, res: Response) => {
     /!\[(?<alt>[^\]]*)\]\((?<filename>.*?)(?=\"|\))(?<optionalpart>\".*\")?\)/g;
   const post = body.replaceAll(
     imageUrlRegex,
-    `![$<alt>](https://github.com/khanhvo198/node-blog-obsidian/blob/master/blog-obsidian/public/images/$<filename>)`,
+    `![$<alt>](https://raw.githubusercontent.com/khanhvo198/node-blog-obsidian/refs/heads/master/blog-obsidian/public/images/$<filename>)`,
   );
-
   res.send({
     content: post,
   });
