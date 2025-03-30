@@ -47,14 +47,13 @@ app.get("/api/posts", (req: Request, res: Response) => {
 
 app.get("/api/posts/:slug", (req: Request, res: Response) => {
   const { slug } = req.params;
-  const filePath = path.join(postsDirectory, `${slug}.md`);
+  let filePath = path.join(postsDirectory, `${slug}.md`);
   const content = fs.readFileSync(filePath, "utf-8");
-  const { body } = fm(content);
 
   // replace image with real url
   const imageUrlRegex =
     /!\[(?<alt>[^\]]*)\]\((?<filename>.*?)(?=\"|\))(?<optionalpart>\".*\")?\)/g;
-  const post = body.replaceAll(
+  const post = content.replaceAll(
     imageUrlRegex,
     `![$<alt>](https://raw.githubusercontent.com/khanhvo198/node-blog-obsidian/refs/heads/master/blog-obsidian/public/images/$<filename>)`,
   );
