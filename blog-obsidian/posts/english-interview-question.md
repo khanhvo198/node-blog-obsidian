@@ -21,7 +21,7 @@ One of my greatest strengths is my adaptability. I can learn new technologies qu
 One of my weaknesses is that my English communication skills are not yet as strong as I would like, especially in speaking. Sometimes I need a bit more time to express my ideas clearly. However, I am actively working on improving my speaking skill, listening to English content, and using English more in daily conversations.
 
 
-## Why did you want to leave currently job ?
+## Why do you want to leave currently job ?
 
 ## Tell me about a time you failed and what you learned from it ?
 

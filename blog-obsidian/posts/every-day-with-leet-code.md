@@ -36,3 +36,66 @@ var maxProfit = function(prices) {
 }; 
 ```
 
+
+## Day 2: Merge Two Sorted Lists
+
+
+![merge-two-sorted-list](merge-two-sorted-list.png)
+
+
+We have 2 pointer, each pointer point to different LinkedList, your mission is merge two of them into one, and return the pointer point to head of this LinkedList.
+
+```java showLineNumbers
+
+/**
+* Definition for singly-linked list.
+* public class ListNode {
+* int val;
+* ListNode next;
+* ListNode() {}
+* ListNode(int val) { this.val = val; }
+* ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+* }
+*/
+
+class Solution {
+
+	public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+		ListNode head = new ListNode(); // create pointer
+		ListNode current = head; // another pointer, point to head
+
+		while(list1 != null && list2 != null) {	
+			if (list1.val < list2.val) {		
+				current.next = list1;
+				list1 = list1.next;
+			} else {
+				current.next = list2;
+				list2 = list2.next;
+			}
+			current = current.next;
+		}
+		
+		current.next = (list1 != null) ? list1 : list2;
+		return head.next;
+	}
+}
+```
+
+You can imagine like that: head -> dummy; current = head which mean current -> dummy;
+
+In while statement, current.next will be equal to list1 or list2; but at this time, current pointer is currently point to dummy node, we need make current pointer point to next node for the next loop, so we need to put add this statement: current = current.next;
+
+when list1 or list2 pointer to null, which mean we have already loop all of them, the rest task is just pointer current to the rest of list1 or list2 and return head for final result
+
+
+
+
+
+
+
+
+
+
+
+
+
